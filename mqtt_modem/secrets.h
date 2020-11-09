@@ -1,5 +1,6 @@
 #define NAME                   "gateway1"
 #define TOPIC_LIMIT            16
+#define SUBSCRIBE_TOPIC        "gateway1/rx"
 
 /* SERIAL PORT */
 //M5Stick C
@@ -14,7 +15,7 @@
 #define LOCAL_MQTT_USERNAME    ""
 #define LOCAL_MQTT_KEY         ""
 
-/* REMOTE MQTT SERVER */ 
+/* REMOTE MQTT SERVER */
 #define REMOTE_SSID            ""
 #define REMOTE_PASS            ""
 #define REMOTE_MQTT_SERVER     ""
@@ -27,5 +28,3 @@
 // Get your certificate here : https://projects.petrucci.ch/esp32/?page=ssl.php
 // Use DST Root CA X3 (not your certificate)
 const char* rootCACertificate = "";
-
-
